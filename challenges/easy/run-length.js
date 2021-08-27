@@ -63,7 +63,7 @@ let functions = {
       let current = string[idx];
 
       if (!isNaN(current) && current !== " ") {
-        strNum += current;
+        strNum += current;  
       } else {
         break;
       }
